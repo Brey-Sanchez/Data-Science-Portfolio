@@ -1,1 +1,0 @@
-This is a short project performing some data cleaning and wrangling with a Netflix dataset, as well as some final Exploratory Data Analysis.
