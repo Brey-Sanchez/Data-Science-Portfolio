@@ -4,4 +4,4 @@ This R project is (mostly) a visual analysis of the NBA shots dataset that can b
 
 There are some interesting trends uncovered as well as some ideas for future analysis!
 
-You can find the full R script with outputs in this folder.
+You can find the full R script with outputs in the HTML file of this folder. You can also see the original R file with just the code.
