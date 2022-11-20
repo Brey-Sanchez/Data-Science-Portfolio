@@ -12,6 +12,7 @@ WITH all_users AS (
   FROM facebook_friends
   GROUP BY 1)
  )
+-- Now we can get the requested table very easily
 SELECT
 user_id,
 SUM(n_friends) / (SELECT COUNT(DISTINCT(user_id)) FROM all_users) * 100 AS popularity_perc
