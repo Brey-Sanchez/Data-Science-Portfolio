@@ -1,3 +1,4 @@
+-- Creating a CTE from which we can then calculate the number of friends each user has
 WITH all_users AS (
   (SELECT
   user1 AS user_id,
