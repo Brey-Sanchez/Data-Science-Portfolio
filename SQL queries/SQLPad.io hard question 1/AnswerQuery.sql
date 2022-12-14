@@ -1,7 +1,7 @@
 SELECT
-  -- We need to use distinct so we don't count repeated customers, as it possible that some
-  -- of them have more than one two-day streak within the specified period (24th to 31st of May)
-	COUNT(DISTINCT(customer_id))
+  -- We need to use distinct so we don't count repeated customers, as it's possible that some
+  -- of them have more than one two-day streaks within the specified period (24th to 31st of May)
+COUNT(DISTINCT(customer_id))
 FROM (
   SELECT
   customer_id,
